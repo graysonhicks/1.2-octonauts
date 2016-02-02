@@ -23,7 +23,7 @@ a {
   list-style: none; /* eliminate bullets and other default list styling*/
 }
 
-/* Big Octonaut Pics */
+/* Big Octocat Pics */
 
 li.octocat {
   float: left;        /* set 3 main images on one line side by side*/
@@ -130,7 +130,7 @@ li.octocat {
 
 @media (max-width: 600px) {
   li.octocat {
-    float: left;        /* set 2 main images on one line side by side*/
+    float: left;        /* set to one single column for smaller devices*/
     max-width: 90%;
     margin: 10px auto;
   }
