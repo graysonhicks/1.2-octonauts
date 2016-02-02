@@ -1,0 +1,81 @@
+body {
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 14px;
+  margin: 0;
+  padding-top: 12px;
+  padding-left: -5px;
+  padding-right: -5px;
+}
+
+img {
+  max-width: 100%;
+}
+
+a {
+  text-decoration: none;
+}
+
+.image-footer,
+.image-caption {
+  display: inline-block;
+}
+
+.octodex,
+.authors {
+  list-style: none;
+}
+
+li.octocat {
+  float: left;
+  max-width: 30%;
+  margin-left: 23px;
+}
+
+.octocat img {
+  display: inline-block;
+  border: 1px solid lightgray;
+
+}
+
+.authors {
+  float: right;
+  padding-left: 2px;
+}
+
+.image-caption{
+  float: right;
+  color: rgb(120, 120, 125);
+}
+
+.image-caption span {
+  position: relative;;
+  top: 5px;
+}
+
+.image-caption a {
+  color: rgb(40, 38, 38);
+  position: relative;;
+  top: 5px;
+}
+
+
+.authors img {
+  width: 27px;
+  height: 27px;
+  border: 1px solid black;
+  border-radius: 2px;
+  position: relative;
+}
+
+.image-footer {
+  border-bottom: 1px solid lightgray;
+  width: 100%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  vertical-align: bottom;
+}
+
+.image-number {
+  color: lightgray;
+}
