@@ -1,3 +1,5 @@
+/* BODY */
+
 body {
   font-family: sans-serif;
   font-weight: bold;
@@ -16,21 +18,25 @@ a {
   text-decoration: none;
 }
 
-.image-footer,
-.image-caption {
-  display: inline-block;
-}
-
 .octodex,
 .authors {
   list-style: none;
 }
+
+/* Big Octonaut Pics */
 
 li.octocat {
   float: left;
   max-width: 30%;
   margin-left: 23px;
 }
+
+.octocat img {
+  display: inline-block;
+  border: 1px solid lightgray;
+}
+
+/* Triangle CSS from Generator*/
 
 .triangle {
   width: 0;
@@ -44,15 +50,35 @@ li.octocat {
   left: -5px;
 }
 
-.octocat img {
-  display: inline-block;
-  border: 1px solid lightgray;
+/* FOOTERS*/
+
+.image-caption span,
+.image-caption a,
+.image-number {
+  position: relative;
+  top: 5px;
 }
 
-.authors {
-  float: right;
-  padding-left: 2px;
+.image-footer,
+.image-caption {
+  display: inline-block;
 }
+
+.image-footer {
+  border-bottom: 1px solid lightgray;
+  width: 100%;
+  padding-top: 1px;
+  padding-bottom: 10px;
+  vertical-align: bottom;
+}
+
+/* Image number*/
+
+.image-number {
+  color: lightgray;
+}
+
+/* Image Captions */
 
 .image-caption{
   float: right;
@@ -63,13 +89,12 @@ li.octocat {
   color: rgb(40, 38, 38);
 }
 
-.image-caption span,
-.image-caption a,
-.image-number {
-  position: relative;
-  top: 5px;
-}
+/* Author Images */
 
+.authors {
+  float: right;
+  padding-left: 2px;
+}
 
 .authors img {
   width: 27px;
@@ -82,16 +107,4 @@ li.octocat {
 
 .authors img:first-child {
   margin-left: 5px;
-}
-
-.image-footer {
-  border-bottom: 1px solid lightgray;
-  width: 100%;
-  padding-top: 1px;
-  padding-bottom: 10px;
-  vertical-align: bottom;
-}
-
-.image-number {
-  color: lightgray;
 }
