@@ -111,3 +111,19 @@ li.octocat {
 .authors img:first-child { /*gives a little spacing between author icons and captioning*/
   margin-left: 5px;
 }
+
+/* Queries */
+
+@media (max-width: 960px) {
+
+  li.octocat {
+    float: left;        /* set 2 main images on one line side by side*/
+    max-width: 45%;
+    margin-left: 23px;
+  }
+
+  .octodex li:nth-child(n+3) {
+    margin-top: 15px;            /* set top and bottom margin for second row of images*/
+    margin-bottom: 15px;
+  }
+}
