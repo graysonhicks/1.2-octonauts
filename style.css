@@ -35,6 +35,11 @@ li.octocat {
   border: 1px solid lightgray;
 }
 
+.octodex li:nth-child(n+4) {
+  margin-top: 15px;            /* set top and bottom margin for second row of images*/
+  margin-bottom: 15px;
+}
+
 /* Triangle CSS from Generator*/
 
 .triangle {
