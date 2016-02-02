@@ -86,7 +86,8 @@ li.octocat {
 
 /* Triangle CSS from Generator*/
 
-.triangle {
+.octocat::after {
+  content: "";
   width: 0;
   height: 0;
   border-style: solid;
@@ -94,7 +95,7 @@ li.octocat {
   border-color: lightgray transparent transparent transparent;
   float: right;
   position: relative;
-  top: -3px;    /* bring in line with bottom of main image and set over right most icon image*/
+  top: -53px;    /* bring in line with bottom of main image and set over right most icon image*/
   left: -5px;
 }
 
@@ -116,7 +117,8 @@ li.octocat {
   border-bottom: 1px solid lightgray;
   width: 100%;                 /* sets border, aligns with width of parent element, sets top and bottom padding*/
   padding-top: 1px;
-  padding-bottom: 10px;
+  padding-bottom: 8px;
+  margin-top: 10px;
 }
 
 /* Image number*/
