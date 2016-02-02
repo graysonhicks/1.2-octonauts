@@ -48,14 +48,14 @@ li.octocat {
   color: rgb(120, 120, 125);
 }
 
-.image-caption span {
-  position: relative;;
-  top: 5px;
-}
-
 .image-caption a {
   color: rgb(40, 38, 38);
-  position: relative;;
+}
+
+.image-caption span,
+.image-caption a,
+.image-number {
+  position: relative;
   top: 5px;
 }
 
@@ -66,6 +66,7 @@ li.octocat {
   border: 1px solid black;
   border-radius: 2px;
   position: relative;
+  top: -5px;
 }
 
 .image-footer {
