@@ -5,7 +5,7 @@ body {
   font-weight: bold;
   font-size: 14px;
   margin: 0;
-  padding-top: 12px;
+  padding-top: 12px;  /* these make the side spacing a little more like the image */
   padding-left: -5px;
   padding-right: -5px;
 }
@@ -20,19 +20,18 @@ a {
 
 .octodex,
 .authors {
-  list-style: none;
+  list-style: none; /* eliminate bullets and other default list styling*/
 }
 
 /* Big Octonaut Pics */
 
 li.octocat {
-  float: left;
+  float: left;        /* set 3 main images on one line side by side*/
   max-width: 30%;
   margin-left: 23px;
 }
 
 .octocat img {
-  display: inline-block;
   border: 1px solid lightgray;
 }
 
@@ -46,7 +45,7 @@ li.octocat {
   border-color: lightgray transparent transparent transparent;
   float: right;
   position: relative;
-  top: -3px;
+  top: -3px;    /* bring in line with bottom of main image and set over right most icon image*/
   left: -5px;
 }
 
@@ -55,7 +54,7 @@ li.octocat {
 .image-caption span,
 .image-caption a,
 .image-number {
-  position: relative;
+  position: relative;    /* this allows caption to be positioned along the middle of the icons instead of top*/
   top: 5px;
 }
 
@@ -66,10 +65,9 @@ li.octocat {
 
 .image-footer {
   border-bottom: 1px solid lightgray;
-  width: 100%;
+  width: 100%;                 /* sets border, aligns with width of parent element, sets top and bottom padding*/
   padding-top: 1px;
   padding-bottom: 10px;
-  vertical-align: bottom;
 }
 
 /* Image number*/
@@ -81,30 +79,30 @@ li.octocat {
 /* Image Captions */
 
 .image-caption{
-  float: right;
+  float: right;                /* bring this text to right side*/
   color: rgb(120, 120, 125);
 }
 
 .image-caption a {
-  color: rgb(40, 38, 38);
+  color: rgb(40, 38, 38);  /* changes default link color*/
 }
 
 /* Author Images */
 
 .authors {
-  float: right;
+  float: right;       /* positions and spaces author icons*/
   padding-left: 2px;
 }
 
 .authors img {
-  width: 27px;
+  width: 27px;    /*sizes icons and styles corners*/
   height: 27px;
   border: none;
   border-radius: 3px;
-  position: relative;
+  position: relative; /* this had to be moved back up a little because caption position was bringing it down with it*/
   top: -5px;
 }
 
-.authors img:first-child {
+.authors img:first-child { /*gives a little spacing between author icons and captioning*/
   margin-left: 5px;
 }
